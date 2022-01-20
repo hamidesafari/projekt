@@ -17,7 +17,7 @@
   );
 }
 .Div1 {
-  border: solid 3px gray;
+  border: solid 3px rgb(231, 223, 223);
   border-radius: 40px;
   height: auto;
   width: 106rem;
@@ -25,7 +25,7 @@
   padding: auto;
   padding-bottom: 50px;
   padding-left: 3px;
-  background: rgb(80, 74, 74);
+  background: rgb(170, 162, 162);
   background: linear-gradient(
     129deg,
     rgba(80, 74, 74, 1) 0%,
@@ -44,7 +44,7 @@
 .kegel {
   width: 300px;
   height: 300px;
-  left: 43%;
+  left: 45%;
   top: -50px;
   border-radius: 50%;
   position: absolute;
@@ -139,6 +139,9 @@ header {
   color: white;
   text-decoration: none;
 }
+.div5 > a > i {
+  border-radius: 28%;
+}
 
 .div5 > a:hover {
   color: yellow;
@@ -205,19 +208,24 @@ header {
   margin-left: 50px;
   line-height: 0.1;
 }
+.p {
+  color: white;
+  margin-left: 20px;
+  padding: 10px;
+}
 .n {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 .button1 {
-  height: 50px;
+  height: 60px;
   width: 120px;
   background-color: rgb(72, 226, 72);
   border: 2px solid rgb(65, 238, 71);
-  border-radius: 28px;
+  border-radius: 20px;
   box-shadow: rgb(109, 211, 103) 2px 6px 20px 2px;
-  padding: 15px;
+  padding: 18px;
   margin: 30px;
 }
 .button1 > a {
@@ -247,7 +255,7 @@ header {
   color: yellow;
   padding: 30px;
   font-size: 25px;
-  text-decoration: none;
+
   margin: 6rem auto;
 }
 footer {
@@ -293,7 +301,7 @@ span {
   border: green;
   border-radius: 10px 10px 50px 10px;
 }
-/*@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .body {
     background-color: oldlace;
     width: 50%;
@@ -302,10 +310,15 @@ span {
     flex-direction: row;
     flex-wrap: wrap;
   }
+  .h5,
+  .h1-1,
+  .p {
+    display: none;
+  }
   .Div1 {
     background: floralwhite;
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 30px;
     padding-right: 30%;
   }
   .foodimg {
@@ -315,21 +328,30 @@ span {
   .div2 {
     background-color: rgb(192, 27, 60);
   }
+  .div4 {
+    right: 5rem;
+    font-size: 60px;
+  }
+  .div4 > a {
+    color: black;
+  }
   .hand,
   .circle,
-  footer,
-  .div4 {
+  footer {
     overflow: hidden;
     display: none;
+  }
+  .h1 {
+    margin-left: 220px;
   }
   .button2 {
     background-color: rgb(135, 210, 211);
   }
-}*/
+}
 @media screen and (max-width: 900px) {
   .body {
-    font-size: 20px;
-    width: 50%;
+    font-size: 40px;
+    width: 20%;
   }
   .hand,
   .circle,
@@ -343,10 +365,31 @@ span {
     height: 100%;
     font-size: 30px;
   }
+  .div3 > img {
+    width: 200px;
+    height: 200px;
+  }
   .div4 {
     display: flex;
     flex-direction: column;
     padding-right: 30%;
+  }
+  .div4 > a {
+    color: rgb(149, 226, 228);
+    font-size: 30px;
+  }
+  .h5 {
+    display: none;
+  }
+  .p {
+    display: none;
+  }
+  .h1-1 {
+    margin-left: 220px;
+  }
+  .h1 {
+    margin-left: 220px;
+    font-size: 7rem;
   }
   .menu1 {
     color: rgb(238, 238, 248);
